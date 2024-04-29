@@ -7,17 +7,17 @@ class QuizApp:
         root.title("General Knowledge Quiz")
         
         self.questions = [
-        {"question": "What is the capital of France?", "answer": "Paris"},
-        {"question": "Who invented the Python programming language?", "answer": "Guido van Rossum"},
-        {"question": "What year was the World Wide Web invented?", "answer": "1989"},
-        {"question": "What does 'www' stand for in a website browser?", "answer": "World Wide Web"},
-        {"question": "What element does 'O' represent on the periodic table?", "answer": "Oxygen"},
-        {"question": "Who wrote '1984'?", "answer": "George Orwell"},
-        {"question": "What is the largest planet in our solar system?", "answer": "Jupiter"},
-        {"question": "In what year did the Titanic sink?", "answer": "1912"},
-        {"question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci"},
-        {"question": "What is the hardest natural substance on Earth?", "answer": "Diamond"}
-    ]
+            {"question": "What is the capital of France?", "options": ["Paris", "London", "Rome", "Berlin"], "answer": "Paris"},
+            {"question": "Who invented the Python programming language?", "options": ["Tim Berners-Lee", "Guido van Rossum", "Dennis Ritchie", "James Gosling"], "answer": "Guido van Rossum"},
+            {"question": "What year was the World Wide Web invented?", "options": ["1985", "1989", "1991", "1993"], "answer": "1989"},
+            {"question": "What does 'www' stand for in a website browser?", "options": ["World Wide Web", "Wide World Web", "Web World Wide", "None of the above"], "answer": "World Wide Web"},
+            {"question": "What is the largest planet in our solar system?", "options": ["Earth", "Jupiter", "Saturn", "Mars"], "answer": "Jupiter"},
+            {"question": "Who wrote the novel 'Pride and Prejudice'?", "options": ["Jane Austen", "Emily Bronte", "Virginia Woolf", "Mary Shelley"], "answer": "Jane Austen"},
+            {"question": "What gas do living creatures breathe in that is necessary for survival?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "answer": "Oxygen"},
+            {"question": "Which element has the chemical symbol 'O'?", "options": ["Gold", "Oxygen", "Silver", "Zinc"], "answer": "Oxygen"},
+            {"question": "In what year did the Titanic sink?", "options": ["1912", "1905", "1898", "1923"], "answer": "1912"},
+            {"question": "Who painted the Mona Lisa?", "options": ["Leonardo da Vinci", "Vincent Van Gogh", "Pablo Picasso", "Claude Monet"], "answer": "Leonardo da Vinci"}
+        ]
         self.question_index = 0
         self.score = 0
         
